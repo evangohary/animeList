@@ -3,14 +3,19 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #7a93ac;
+  background-color: transparent;
   font-family: "Fira Sans", sans-serif;
+}
+
+html {
+  height: 300vh;
+  background: linear-gradient(170deg, #383838 0%, #0f0f0f 30%);
 }
 
 header {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #e9f1f7;
+  background-color: transparent;
 }
 
 header h1 {
@@ -18,12 +23,13 @@ header h1 {
   font-size: 36px;
   font-weight: 400;
   text-align: center;
-  background-color: #e9f1f7;
+  background-color: transparent;
+  color: #ffffff;
 }
 
 header h1 strong {
-  color: #171a21;
-  background-color: #e9f1f7;
+  color: #ffffff;
+  background-color: transparent;
 }
 
 /* fix and change later*/
@@ -54,7 +60,7 @@ header h1 strong {
 }
 
 .content-wrap aside nav h3 {
-  color: #131b23;
+  color: #ffffff;
   font-size: 24px;
   margin-bottom: 16px;
 }
@@ -66,7 +72,7 @@ header h1 strong {
   color: #171a21;
   font-size: 16px;
   margin-bottom: 16px;
-  background-color: #e9f1f7;
+  background-color: #ffffff;
   border-radius: 999px;
   text-decoration: none;
   -webkit-transition: 0.4s;
@@ -75,7 +81,7 @@ header h1 strong {
 
 .content-wrap aside nav a:hover {
   background-color: #313131;
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main {
@@ -126,7 +132,7 @@ header h1 strong {
   max-width: 400px;
   padding: 16px;
   border-radius: 999px;
-  background-color: #e9f1f7;
+  background-color: #ffffff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -138,24 +144,24 @@ header h1 strong {
 }
 
 .content-wrap main .main-head .search-box input ::-webkit-input-placeholder {
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main .main-head .search-box input :-ms-input-placeholder {
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main .main-head .search-box input ::-ms-input-placeholder {
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main .main-head .search-box input ::placeholder {
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main .main-head .search-box input:focus, .content-wrap main .main-head .search-box input:valid {
   background-color: #313131;
-  color: #afb3f7;
+  color: #ffffff;
 }
 
 .content-wrap main .anime-list {
@@ -225,7 +231,7 @@ header h1 strong {
 }
 
 .content-wrap main .anime-list .anime-card h3 {
-  color: #171a21;
+  color: #ffffff;
 }
 
 .content-wrap main .anime-list .anime-card:hover figure img {

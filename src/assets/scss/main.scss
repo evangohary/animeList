@@ -2,26 +2,33 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   background-color: #7a93ac;
+   background-color: transparent;
 
    font-family: "Fira Sans", sans-serif;
+}
+html {
+   height: 300vh;
+
+   background: linear-gradient(170deg, hsl(0, 0%, 22%) 0%, hsl(0, 0%, 6%) 30%);
 }
 
 header {
    padding-top: 50px;
    padding-bottom: 50px;
-   background-color: #e9f1f7;
+   //background: linear-gradient(170deg, hsl(0, 0%, 22%) 0%, hsl(0, 0%, 6%) 30%);
+   background-color: transparent;
 
    h1 {
       color: 171a21;
       font-size: 36px;
       font-weight: 400;
       text-align: center;
-      background-color: #e9f1f7;
+      background-color: transparent;
+      color: #ffffff;
 
       strong {
-         color: #171a21;
-         background-color: #e9f1f7;
+         color: #ffffff;
+         background-color: transparent;
       }
    }
 }
@@ -44,7 +51,7 @@ header {
          padding-right: 16px;
 
          h3 {
-            color: #131b23;
+            color: #ffffff;
             font-size: 24px;
             margin-bottom: 16px;
          }
@@ -58,7 +65,7 @@ header {
             font-size: 16px;
             margin-bottom: 16px;
 
-            background-color: #e9f1f7;
+            background-color: #ffffff;
             border-radius: 999px;
             text-decoration: none;
 
@@ -66,7 +73,7 @@ header {
 
             &:hover {
                background-color: #313131;
-               color: #afb3f7;
+               color: #ffffff;
             }
          }
       }
@@ -104,19 +111,18 @@ header {
                max-width: 400px;
                padding: 16px;
                border-radius: 999px;
-               background-color: #e9f1f7;
-               
-               
+               background-color: #ffffff;
+
                transition: 0.4s;
 
                ::placeholder {
-                  color: #afb3f7;
+                  color: #ffffff;
                }
 
                &:focus,
                &:valid {
                   background-color: #313131;
-                  color: #afb3f7;
+                  color: #ffffff;
                }
             }
          }
@@ -167,7 +173,7 @@ header {
             }
 
             h3 {
-               color: #171a21;
+               color: #ffffff;
             }
 
             &:hover {
