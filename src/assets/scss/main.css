@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #7a93ac;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -12,14 +13,14 @@ header {
 }
 
 header h1 {
-  color: #aaa;
+  color: 171a21;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
 }
 
 header h1 strong {
-  color: #313131;
+  color: #171a21;
 }
 
 /* fix and change later*/
@@ -37,13 +38,19 @@ header h1 strong {
   padding-right: 16px;
 }
 
+@media screen and (max-width: 750px) {
+  .content-wrap aside {
+    display: none;
+  }
+}
+
 .content-wrap aside nav {
   padding-left: 16px;
   padding-right: 16px;
 }
 
 .content-wrap aside nav h3 {
-  color: #313131;
+  color: #171a21;
   font-size: 24px;
   margin-bottom: 16px;
 }
@@ -52,7 +59,7 @@ header h1 strong {
   display: block;
   padding: 8px 16px;
   text-align: left;
-  color: #888;
+  color: #171a21;
   font-size: 16px;
   margin-bottom: 16px;
   background-color: #eee;
@@ -64,7 +71,7 @@ header h1 strong {
 
 .content-wrap aside nav a:hover {
   background-color: #313131;
-  color: #aaa;
+  color: #afb3f7;
 }
 
 .content-wrap main {
@@ -72,6 +79,12 @@ header h1 strong {
       -ms-flex: 1 1 0%;
           flex: 1 1 0%;
   padding: 0px 16px;
+}
+
+@media screen and (max-width: 750px) {
+  .content-wrap main {
+    margin: 10px;
+  }
 }
 
 .content-wrap main .main-head {
@@ -102,6 +115,8 @@ header h1 strong {
   background: none;
   outline: none;
   border: none;
+  margin-left: 0;
+  margin-right: auto;
   display: block;
   width: 100%;
   max-width: 400px;
@@ -112,25 +127,31 @@ header h1 strong {
   transition: 0.4s;
 }
 
+@media screen and (max-width: 750px) {
+  .content-wrap main .main-head .search-box input {
+    margin: 0 auto;
+  }
+}
+
 .content-wrap main .main-head .search-box input ::-webkit-input-placeholder {
-  color: #888;
+  color: #afb3f7;
 }
 
 .content-wrap main .main-head .search-box input :-ms-input-placeholder {
-  color: #888;
+  color: #afb3f7;
 }
 
 .content-wrap main .main-head .search-box input ::-ms-input-placeholder {
-  color: #888;
+  color: #afb3f7;
 }
 
 .content-wrap main .main-head .search-box input ::placeholder {
-  color: #888;
+  color: #afb3f7;
 }
 
 .content-wrap main .main-head .search-box input:focus, .content-wrap main .main-head .search-box input:valid {
   background-color: #313131;
-  color: #fff;
+  color: #afb3f7;
 }
 
 .content-wrap main .anime-list {
@@ -149,6 +170,32 @@ header h1 strong {
           flex: 1 1 33.333%;
   max-width: 33.333%;
   padding: 16px 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .content-wrap main .anime-list .anime-card {
+    max-width: 45%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 45%;
+            flex: 1 0 45%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content-wrap main .anime-list .anime-card {
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .content-wrap main .anime-list .anime-card {
+    max-width: 80%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 80%;
+            flex: 1 0 80%;
+  }
 }
 
 .content-wrap main .anime-list .anime-card a {
@@ -174,7 +221,7 @@ header h1 strong {
 }
 
 .content-wrap main .anime-list .anime-card h3 {
-  color: #313131;
+  color: #171a21;
 }
 
 .content-wrap main .anime-list .anime-card:hover figure img {
