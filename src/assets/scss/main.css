@@ -12,6 +12,11 @@ html {
   background: linear-gradient(170deg, #383838 0%, #0f0f0f 30%);
 }
 
+html body {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 header {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -19,12 +24,17 @@ header {
 }
 
 header h1 {
-  color: 171a21;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
   background-color: transparent;
   color: #ffffff;
+}
+
+@media screen and (max-width: 360px) {
+  header h1 {
+    font-size: 24px;
+  }
 }
 
 header h1 strong {
@@ -199,12 +209,12 @@ header h1 strong {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   .content-wrap main .anime-list .anime-card {
-    max-width: 80%;
+    max-width: 90%;
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 80%;
-            flex: 1 0 80%;
+        -ms-flex: 1 0 90%;
+            flex: 1 0 90%;
   }
 }
 

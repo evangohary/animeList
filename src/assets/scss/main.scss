@@ -8,8 +8,12 @@
 }
 html {
    height: 300vh;
-
    background: linear-gradient(170deg, hsl(0, 0%, 22%) 0%, hsl(0, 0%, 6%) 30%);
+
+   body {
+      max-width: 1300px;
+      margin: 0 auto;
+   }
 }
 
 header {
@@ -19,7 +23,9 @@ header {
    background-color: transparent;
 
    h1 {
-      color: 171a21;
+      @media screen and (max-width: 360px) {
+         font-size: 24px;
+      }
       font-size: 36px;
       font-weight: 400;
       text-align: center;
@@ -147,9 +153,9 @@ header {
             @media screen and (max-width: 450px) {
                max-width: 48%;
             }
-            @media screen and (max-width: 350px) {
-               max-width: 80%;
-               flex: 1 0 80%;
+            @media screen and (max-width: 360px) {
+               max-width: 90%;
+               flex: 1 0 90%;
             }
 
             a {
