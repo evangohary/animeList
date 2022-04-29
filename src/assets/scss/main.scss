@@ -10,15 +10,18 @@
 header {
    padding-top: 50px;
    padding-bottom: 50px;
+   background-color: #e9f1f7;
 
    h1 {
       color: 171a21;
       font-size: 36px;
       font-weight: 400;
       text-align: center;
+      background-color: #e9f1f7;
 
       strong {
          color: #171a21;
+         background-color: #e9f1f7;
       }
    }
 }
@@ -31,6 +34,7 @@ header {
       flex: 1 1 250px;
       max-width: 250px;
       padding-right: 16px;
+      padding-top: 10px;
 
       @media screen and (max-width: 750px) {
          display: none;
@@ -40,7 +44,7 @@ header {
          padding-right: 16px;
 
          h3 {
-            color: #171a21;
+            color: #131b23;
             font-size: 24px;
             margin-bottom: 16px;
          }
@@ -54,7 +58,7 @@ header {
             font-size: 16px;
             margin-bottom: 16px;
 
-            background-color: #eee;
+            background-color: #e9f1f7;
             border-radius: 999px;
             text-decoration: none;
 
@@ -70,7 +74,7 @@ header {
 
    main {
       flex: 1 1 0%;
-      padding: 0px 16px;
+      padding: 10px 16px;
       @media screen and (max-width: 750px) {
          margin: 10px;
       }
@@ -100,8 +104,9 @@ header {
                max-width: 400px;
                padding: 16px;
                border-radius: 999px;
-               background-color: #eee;
-
+               background-color: #e9f1f7;
+               
+               
                transition: 0.4s;
 
                ::placeholder {

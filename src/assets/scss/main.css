@@ -10,6 +10,7 @@
 header {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: #e9f1f7;
 }
 
 header h1 {
@@ -17,10 +18,12 @@ header h1 {
   font-size: 36px;
   font-weight: 400;
   text-align: center;
+  background-color: #e9f1f7;
 }
 
 header h1 strong {
   color: #171a21;
+  background-color: #e9f1f7;
 }
 
 /* fix and change later*/
@@ -36,6 +39,7 @@ header h1 strong {
           flex: 1 1 250px;
   max-width: 250px;
   padding-right: 16px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 750px) {
@@ -50,7 +54,7 @@ header h1 strong {
 }
 
 .content-wrap aside nav h3 {
-  color: #171a21;
+  color: #131b23;
   font-size: 24px;
   margin-bottom: 16px;
 }
@@ -62,7 +66,7 @@ header h1 strong {
   color: #171a21;
   font-size: 16px;
   margin-bottom: 16px;
-  background-color: #eee;
+  background-color: #e9f1f7;
   border-radius: 999px;
   text-decoration: none;
   -webkit-transition: 0.4s;
@@ -78,7 +82,7 @@ header h1 strong {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 0%;
           flex: 1 1 0%;
-  padding: 0px 16px;
+  padding: 10px 16px;
 }
 
 @media screen and (max-width: 750px) {
@@ -122,7 +126,7 @@ header h1 strong {
   max-width: 400px;
   padding: 16px;
   border-radius: 999px;
-  background-color: #eee;
+  background-color: #e9f1f7;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
