@@ -37,6 +37,11 @@ header h1 {
   }
 }
 
+header h1 h2 {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
 header h1 strong {
   color: #ffffff;
   background-color: transparent;

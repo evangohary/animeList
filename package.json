@@ -1,6 +1,6 @@
 {
    "homepage": "http://evangohary.github.io/animeList",
-   "name": "coffee-machine-pods",
+   "name": "animeListLookup",
    "version": "0.1.0",
    "private": true,
    "dependencies": {
